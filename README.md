@@ -42,6 +42,6 @@ False  otherwise.<br>
      
 
     
-#### סוגי קודקודים שבדקת:<br>
+#### סוגי קודקודים שבדקתי:<br>
 <img src="vertex_types.PNG" height=350 weight=250><br>
      
