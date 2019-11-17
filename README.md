@@ -38,5 +38,5 @@ False  otherwise.<br>
      <p></p>
     
 #### סוגי קודקודים שבדקת:<br>
-<img src="vertex_types.png" height=350 weight=250><br>
+<img src="vertex_types.PNG" height=350 weight=250><br>
      
