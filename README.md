@@ -13,14 +13,14 @@ False  otherwise.<br>
    counter = 0 <br>
    inside = FALSE <br>
 4. for i from point to border:<br>
-   <pre> vertex_flag = 0</pre> <br>
-   <pre> if cross contour:</pre> <br>
-    <pre> <pre> if current pixel < image_width:</pre></pre>  <br>
-      <pre> <pre> <pre> vertex_flag <- check if the currnt pixel is vertex or part of edge</pre> </pre> </pre> <br>
-    <pre> <pre> else: (current black pixel on the rightmost pixel)</pre> </pre> <br>
-     <pre> <pre> <pre>  counter += 0.5</pre> </pre> </pre> <br>
-    <pre> <pre> if current pixel not vertex or part of edge:</pre> </pre> <br>
-     <pre> <pre> <pre>  counter +=0.5</pre> </pre> </pre> <br>
+    vertex_flag = 0 <br>
+    if cross contour: <br>
+      if current pixel < image_width:<br>
+         vertex_flag <- check if the currnt pixel is vertex or part of edge <br>
+      else: (current black pixel on the rightmost pixel)<br>
+         counter += 0.5 <br>
+      if current pixel not vertex or part of edge: <br>
+         counter +=0.5<br>
  5. if counter odd: inside = TRUE<br>
     else: inside = FALSE <br>
      
