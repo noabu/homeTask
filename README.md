@@ -3,9 +3,8 @@
 For a given contour and a point (x,y), return:<br>
 True   if the point is inside the contour <br>
 False  otherwise.<br>
-</p>
+<br>
 ### pseudo code:
-
 1. input validation<br>
 2. if point on contour: return FALSE<br>
 3. if min (p_x, image_with-p_x) == p_x: go from point to left image border.<br>
